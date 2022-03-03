@@ -1,0 +1,31 @@
+{
+  "name": "Bored Crazy Ape Club #28",
+  "description": "Bored Crazy Ape Club is a randomly generated unduplicated collection on the polygon network, each Ape is unique, Different tribe, Same Bloodline.",
+  "image": "https://raw.githubusercontent.com/Tune-Coin/BCAC/main/28.png",
+  "dna": "590727438494107a503bcec53fb16bdb8f1f2989",
+  "edition": 28,
+  "date": 1646320128132,
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Gradient"
+    },
+    {
+      "trait_type": "FUR",
+      "value": "Turquoise 3"
+    },
+    {
+      "trait_type": "EYES",
+      "value": "Bloodshoot"
+    },
+    {
+      "trait_type": "CLOTHES",
+      "value": "Emojis Sweater"
+    },
+    {
+      "trait_type": "MOUTH",
+      "value": "Grin"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}
