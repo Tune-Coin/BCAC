@@ -1,0 +1,55 @@
+{
+    "language": "Solidity",
+    "sources":
+    {
+      "BCAC.sol":
+      {
+        "urls":
+        [
+          "ipfs/QmXGYwDqHewNMvm8xGLW4hJFoP4KXuhRe196ccyXFPazDe?filename=BCAC.sol"
+        ]
+      },
+      "mortal":
+      {
+        "keccak256": "0x234...",
+        "content": "contract mortal is owned { function kill() { if (msg.sender == owner) selfdestruct(owner); } }"
+      }
+    },
+    "settings":
+    {
+      "optimizer": {
+        "enabled": false,
+        "runs": 200,
+        "details": {
+          "peephole": true,
+          "jumpdestRemover": true,
+          "orderLiterals": false,
+          "deduplicate": false,
+          "cse": false,
+          "constantOptimizer": false,
+          "yul": false,
+          "yulDetails": {
+            "stackAllocation": true
+          }
+        }
+      },
+      "evmVersion": "byzantium", 
+        "metadata": {
+        "useLiteralContent": true
+      },
+      "outputSelection": {
+        "*": {
+          "*": [
+            "metadata", "evm.bytecode" 
+            , "evm.bytecode.sourceMap" 
+          ],
+          "": [
+            "ast"
+          ]
+        },
+        "def": {
+          "MyContract": [ "abi", "evm.bytecode.opcodes" ]
+        }
+      }
+    }
+  }
